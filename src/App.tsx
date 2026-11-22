@@ -327,10 +327,15 @@ export function App() {
         conflictCount={roster?.conflicts.length || 0}
         onToggleConflictDrawer={() => setIsConflictDrawerOpen(!isConflictDrawerOpen)}
         isGenerating={isGenerating}
+        activeTab={activeTab}
+        onTabChange={setActiveTab}
+        employeeCount={employees.length}
+        brandCount={brands.length}
+        podCount={pods.length}
       />
 
       {/* Main Content Workspace */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-5">
+      <main className="flex-1 w-full max-w-[1560px] mx-auto px-4 sm:px-6 lg:px-8 py-5 space-y-4">
         {/* Real-time Conflict Alert Strip (if any critical issues) */}
         {criticalConflicts.length > 0 && (
           <div className="bg-rose-50 border border-rose-200 p-4 rounded-xl shadow-xs flex items-center justify-between gap-4">
@@ -364,75 +369,6 @@ export function App() {
             </div>
           </div>
         )}
-
-        {/* 5-View Navigation Tab Bar */}
-        <div className="flex flex-wrap items-center justify-between gap-3 border-b border-slate-200 pb-3">
-          <div className="flex items-center bg-white p-1 rounded-xl border border-slate-200 shadow-2xs">
-            <button
-              onClick={() => setActiveTab('COMPANY')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-                activeTab === 'COMPANY'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-              }`}
-            >
-              <Building2 className="w-4 h-4" />
-              <span>Company-Wide Matrix</span>
-            </button>
-
-            <button
-              onClick={() => setActiveTab('POD')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-                activeTab === 'POD'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-              }`}
-            >
-              <Users className="w-4 h-4" />
-              <span>Pod-Wise View</span>
-            </button>
-
-            <button
-              onClick={() => setActiveTab('BRAND')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-                activeTab === 'BRAND'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-              }`}
-            >
-              <Store className="w-4 h-4" />
-              <span>Brand Coverage View</span>
-            </button>
-
-            <button
-              onClick={() => setActiveTab('PROCESS')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-                activeTab === 'PROCESS'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-              }`}
-            >
-              <Layers className="w-4 h-4" />
-              <span>Process-Wise View</span>
-            </button>
-
-            <button
-              onClick={() => setActiveTab('EMPLOYEE')}
-              className={`flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-bold transition-all ${
-                activeTab === 'EMPLOYEE'
-                  ? 'bg-indigo-600 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900 hover:bg-slate-100'
-              }`}
-            >
-              <User className="w-4 h-4" />
-              <span>Employee Schedule Card</span>
-            </button>
-          </div>
-
-          <div className="text-xs font-medium text-slate-500">
-            {employees.length} Employees • {brands.length} Brands • {pods.length} Operational Pods
-          </div>
-        </div>
 
         {/* View Component Display */}
         {roster && (
