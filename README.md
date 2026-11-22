@@ -3,7 +3,7 @@
 > Hiring Assignment: Build a Smart Roster Management System  
 > **Company**: DataStraw Tech Internship Assessment  
 > **Stack**: React 19, TypeScript, Tailwind CSS, Vite, Lucide Icons, Canvas Confetti  
-> **Repository**: [GitHub Repository](https://github.com/your-username/datastraw-smart-roster)  
+> **Repository**: [GitHub Repository](https://github.com/tanmaynitturkar/Datastraw-smart-roster-management)  
 > **Live Demo**: [Deployed Application](https://datastraw-smart-roster.vercel.app)  
 
 ---
@@ -32,8 +32,8 @@ Unlike a naive calendar or digitized spreadsheet, this system solves the underly
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/your-username/datastraw-smart-roster.git
-cd datastraw-smart-roster
+git clone https://github.com/tanmaynitturkar/Datastraw-smart-roster-management.git
+cd Datastraw-smart-roster-management
 
 # 2. Install dependencies
 npm install
@@ -201,7 +201,7 @@ The application provides a dedicated **Change Simulator Modal** (`Handle Change`
 
 - **Primary Recipients**: `ozair.shaikh@datastraw.in`, `aryan.jaiswal@datastraw.in`
 - **CC**: `talent@datastraw`
-- **Subject**: `Smart Roster Management System Assignment - [Your Full Name]`
+- **Subject**: `Smart Roster Management System Assignment - Tanmay Nitturkar`
 
 ### Email Body Template:
 ```text
@@ -210,8 +210,8 @@ Dear Ozair, Aryan, and the DataStraw Talent Team,
 Please find my completed hiring assignment for the Smart Roster Management System below:
 
 1. Application URL: https://datastraw-smart-roster.vercel.app (or local preview: npm run preview)
-2. GitHub Repository: https://github.com/your-username/datastraw-smart-roster
-3. LinkedIn Profile: https://www.linkedin.com/in/your-profile
+2. GitHub Repository: https://github.com/tanmaynitturkar/Datastraw-smart-roster-management
+3. LinkedIn Profile: https://www.linkedin.com/in/tanmay-nitturkar
 4. Demo Video (Loom): https://www.loom.com/share/your-demo-video-id
 5. Comprehensive Submission PDF: Attached with detailed architecture note and answers to all 8 questions.
 
@@ -221,6 +221,6 @@ The system is built on a deterministic Constraint-Satisfaction engine that decou
 Looking forward to discussing the solution with you!
 
 Best regards,
-[Your Full Name]
-[Your Phone Number]
+Tanmay Nitturkar
+tanmaynitturkar@gmail.com
 ```

@@ -178,7 +178,7 @@ def create_submission_pdf(filename="DataStraw_Smart_Roster_Management_System_Sub
     # Meta Info Table
     meta_data = [
         [
-            Paragraph("<b>Candidate Name:</b> [Your Full Name]", body_style),
+            Paragraph("<b>Candidate Name:</b> Tanmay Nitturkar", body_style),
             Paragraph("<b>Submission Date:</b> November 2026", body_style),
         ],
         [
@@ -187,7 +187,7 @@ def create_submission_pdf(filename="DataStraw_Smart_Roster_Management_System_Sub
         ],
         [
             Paragraph("<b>Working App URL:</b> <font color='#4338ca'><u>https://datastraw-smart-roster.vercel.app</u></font>", body_style),
-            Paragraph("<b>GitHub Repo:</b> <font color='#4338ca'><u>https://github.com/your-username/datastraw-smart-roster</u></font>", body_style),
+            Paragraph("<b>GitHub Repo:</b> <font color='#4338ca'><u>https://github.com/tanmaynitturkar/Datastraw-smart-roster-management</u></font>", body_style),
         ],
         [
             Paragraph("<b>Primary Email:</b> ozair.shaikh@datastraw.in, aryan.jaiswal@datastraw.in", body_style),
@@ -417,13 +417,13 @@ def create_submission_pdf(filename="DataStraw_Smart_Roster_Management_System_Sub
     email_text = (
         "<b>To:</b> ozair.shaikh@datastraw.in, aryan.jaiswal@datastraw.in<br/>"
         "<b>CC:</b> talent@datastraw<br/>"
-        "<b>Subject:</b> Smart Roster Management System Assignment - [Your Full Name]<br/><br/>"
+        "<b>Subject:</b> Smart Roster Management System Assignment - Tanmay Nitturkar<br/><br/>"
         "<b>Email Body:</b><br/>"
         "Dear Ozair, Aryan, and the DataStraw Talent Team,<br/><br/>"
         "Please find my completed submission for the Smart Roster Management System assignment below:<br/><br/>"
         "1. <b>Application URL:</b> https://datastraw-smart-roster.vercel.app (or local preview: npm run preview)<br/>"
-        "2. <b>GitHub Repository:</b> https://github.com/your-username/datastraw-smart-roster<br/>"
-        "3. <b>LinkedIn Profile:</b> https://www.linkedin.com/in/your-profile (ensured accessible)<br/>"
+        "2. <b>GitHub Repository:</b> https://github.com/tanmaynitturkar/Datastraw-smart-roster-management<br/>"
+        "3. <b>LinkedIn Profile:</b> https://www.linkedin.com/in/tanmay-nitturkar (ensured accessible)<br/>"
         "4. <b>Demo Video (3–5 min):</b> https://www.loom.com/share/your-demo-video-id<br/>"
         "5. <b>Approach Note:</b> The system models operational scheduling as a deterministic Constraint-Satisfaction "
         "problem that formally separates client brand operating requirements from employee rest schedules. "
@@ -432,8 +432,8 @@ def create_submission_pdf(filename="DataStraw_Smart_Roster_Management_System_Sub
         "Attached is the full Submission Dossier PDF containing system architecture notes and comprehensive answers to all 8 evaluation questions.<br/><br/>"
         "Looking forward to hearing from you!<br/><br/>"
         "Best regards,<br/>"
-        "<b>[Your Full Name]</b><br/>"
-        "[Your Phone Number]"
+        "<b>Tanmay Nitturkar</b><br/>"
+        "tanmaynitturkar@gmail.com"
     )
     t_email = Table([[Paragraph(email_text, body_style)]], colWidths=[504])
     t_email.setStyle(TableStyle([
