@@ -176,25 +176,5 @@ The application provides a dedicated **Change Simulator Modal** (`Handle Change`
 
 ---
 
-## 📽️ Demo Video Walkthrough Script (3–5 Minutes)
-
-1. **Minute 0:00 – 0:45 | Introduction & Problem Scope**:
-   - Welcome & overview of DataStraw's operational context.
-   - Show the 4 Pods, 32 employees, and 16 client brands (highlighting the 81% single-resource vs 19% multi-resource distribution).
-2. **Minute 0:45 – 1:30 | Generating the Roster & Conflict Detection**:
-   - Click "Generate Roster". Show deterministic solver in action.
-   - Open the Conflict Drawer: examine real-time detection of single-resource risks and leave collisions.
-3. **Minute 1:30 – 2:30 | Stakeholder Views**:
-   - Walk through Company View, Pod View, Brand View (green/red daily coverage), Process View, and Employee Schedule Card.
-4. **Minute 2:30 – 3:45 | Demonstrating Change Management (Section 3.F)**:
-   - Click "Handle Change".
-   - Test Scenario A (Solo employee absence on 365-day brand): show instant gap alert and ranked pod backup recommendations. Click "Apply Resolution" and watch the gap resolve!
-   - Test Scenario B (Multi-resource absence): demonstrate how the system evaluates peer skill absorption without requiring an external floater.
-5. **Minute 3:45 – 4:30 | Manual Overrides, Export & Publication**:
-   - Click any cell to show the Shift Inspector modal and make a manual edit.
-   - Export roster to CSV and JSON.
-   - Click "Publish" to transition roster from Draft to Published with celebration confetti.
-
----
 
 
