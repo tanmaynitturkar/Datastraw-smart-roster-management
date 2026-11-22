@@ -4,7 +4,7 @@
 > **Company**: DataStraw Tech Internship Assessment  
 > **Stack**: React 19, TypeScript, Tailwind CSS, Vite, Lucide Icons, Canvas Confetti  
 > **Repository**: [GitHub Repository](https://github.com/tanmaynitturkar/Datastraw-smart-roster-management)  
-> **Live Demo**: [Deployed Application](https://datastraw-smart-roster.vercel.app)  
+> **Live Demo**: [Deployed Application]([https://datastraw-smart-roster.vercel.app](https://datastraw-smart-roster-management.vercel.app/)  
 
 ---
 
@@ -197,30 +197,4 @@ The application provides a dedicated **Change Simulator Modal** (`Handle Change`
 
 ---
 
-## 📧 Submission Details
 
-- **Primary Recipients**: `ozair.shaikh@datastraw.in`, `aryan.jaiswal@datastraw.in`
-- **CC**: `talent@datastraw`
-- **Subject**: `Smart Roster Management System Assignment - Tanmay Nitturkar`
-
-### Email Body Template:
-```text
-Dear Ozair, Aryan, and the DataStraw Talent Team,
-
-Please find my completed hiring assignment for the Smart Roster Management System below:
-
-1. Application URL: https://datastraw-smart-roster.vercel.app (or local preview: npm run preview)
-2. GitHub Repository: https://github.com/tanmaynitturkar/Datastraw-smart-roster-management
-3. LinkedIn Profile: https://www.linkedin.com/in/tanmay-nitturkar
-4. Demo Video (Loom): https://www.loom.com/share/your-demo-video-id
-5. Comprehensive Submission PDF: Attached with detailed architecture note and answers to all 8 questions.
-
-Approach Note:
-The system is built on a deterministic Constraint-Satisfaction engine that decouples client brand operating calendars (365 days vs Mon-Sat vs Mon-Fri) from employee rest schedules. It specifically handles the operational vulnerability of single-resource brands (~81% of client accounts) through real-time conflict detection and intelligent pod backup recommendations, ensuring continuous client coverage without manual rebuilds.
-
-Looking forward to discussing the solution with you!
-
-Best regards,
-Tanmay Nitturkar
-tanmaynitturkar@gmail.com
-```
