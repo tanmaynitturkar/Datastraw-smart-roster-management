@@ -450,5 +450,4 @@ def create_submission_pdf(filename="DataStraw_Smart_Roster_Management_System_Sub
     print(f"Successfully generated {filename}")
 
 if __name__ == "__main__":
-    create_submission_pdf("submission.pdf")
-    create_submission_pdf("DataStraw_Smart_Roster_Management_System_Submission.pdf")
+    create_submission_pdf()
